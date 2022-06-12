@@ -61,6 +61,7 @@
             android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
     <Button
+        android:onClick="signUpMethod"
         android:backgroundTint="@color/black"
         android:id="@+id/signUpButton"
         android:layout_width="match_parent"
