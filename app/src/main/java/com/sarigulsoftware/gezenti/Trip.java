@@ -3,7 +3,9 @@ package com.sarigulsoftware.gezenti;
 public class Trip {
     private String id,location, date, point, declaration, summary;
 
-    public Trip(String id, String location, String date, String point, String declaration, String summary) {
+    public Trip(){}
+
+    public Trip(String id, String location, String date, String point, String declaration, String summary, String headPhoto) {
         this.id = id;
         this.location = location;
         this.date = date;

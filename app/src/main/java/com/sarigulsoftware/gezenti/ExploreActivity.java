@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class ExploreActivity extends AppCompatActivity {
@@ -16,5 +17,6 @@ public class ExploreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_explore);
 
         recyclerView = findViewById(R.id.exploreRecyclerView);
+        DatabaseProcess.getTripList(getApplicationContext(),recyclerView);
     }
 }
